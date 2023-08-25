@@ -1,1 +1,2 @@
-print(zip me)
+key=['ten','twenty','thirty']
+value=['10','20']
