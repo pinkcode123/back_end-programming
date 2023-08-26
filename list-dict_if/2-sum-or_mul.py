@@ -1,6 +1,7 @@
 num1 = int(input("enter number $ "))
 num2 = int(input("Enter number $ "))
-if num1 * num2 <= 1000 :
-    print(num1 * num2)
+ans = num1 * num2
+if num1 * num2 <= 1000:
+    print(f"product of{num1}and{num2} = {ans}")
 else:
-    print(num1 + num2)
+    print(f"sum of {num1} and {num2} = {num1 + num2}")
