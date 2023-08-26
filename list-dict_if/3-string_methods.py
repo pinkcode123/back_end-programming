@@ -5,7 +5,7 @@ print(python)
 
 # Capitalize all characters in the string
 capitalize = mystring.upper()
-print( capitalize)
+print(capitalize)
 
 # Capitalize only the word 'python'
 only = mystring.split()  # Split the string into words
