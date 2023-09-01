@@ -3,17 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>color input </title>
+    <style ref = "text.css">
+      .inline-block{
+        display: inline-block;
+        justify-content:center;
+        margin-top: 10px;
+      }
+      .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1pc solid blue;
+        border-radius: 3px;
+        background-color: rgb(242, 169, 208);
+      }
+    </style>
 </head>
 <body>
-    <div id="Dev">
-    <H1 id="dev">Engentech Web-Dev</H1>
-        </div>
-          <div id="BTN">
-            <button>Red</button>
-          </div>
-    
-    <SCript src="INDEX.JS"></SCript>
+  <div class="flex">
+    <form class="inline-block">
+      <input type="text" id="txt" onclick="getval()"> Enter color <br><br>
+      <button type="button" id="BTN">submit</button> 
+      <H1 id="dev">Engentech Web-Dev</H1><br><br>
+    </form>
+  </div>
+ 
+<SCript src="INDEX.JS"></SCript>
 
 </body>
 </html>
