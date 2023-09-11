@@ -1,14 +1,15 @@
-data = {
-    "Gentle": "admin2",
-    "Ruth": "123abcd",
-}
-def validate_user(name, password):
-    name = input("enter username ")
-    password = input("password ")
-    if name in data:
-        if password == data[name]:
-            print("access granted")
-            validate_user(name, password)
-            return name
-        else:
-            print("access denied")
+def  addall(*all):
+    mul=1
+    for x in all:
+        mul *=x
+       # print(mul)
+addall(1,3,5,7,9,4)
+def count(*all):
+    item =0
+    for x in count():
+     print(item)
+count(2, 4, 6, 8)
+
+
+
+

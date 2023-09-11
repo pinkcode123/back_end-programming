@@ -1,0 +1,27 @@
+.subform{
+    border: 2px solid black;
+    height: 65vh;
+    border-radius: 10px;
+
+}
+button [inputtype="submit"]{
+    display: flex;
+    justify-content: center;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.form{
+    display: block;
+    justify-content: center;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
