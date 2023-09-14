@@ -5,6 +5,7 @@ def new_list(value):
     string = []
     alphabet = []
     integer = []
+
     for x in value:
         if isinstance(x, int):
             integer.append(x)
