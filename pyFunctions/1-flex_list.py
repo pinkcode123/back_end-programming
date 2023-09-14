@@ -5,22 +5,17 @@ def new_list(value):
     string = []
     alphabet = []
     integer = []
-
     for x in value:
         if isinstance(x, int):
             integer.append(x)
     print(integer)
-
     for x in value:
-        if isinstance(x, str):
+        if isinstance(x,str):
             string.append(x)
     print(string)
-    for character in string:
-        if character.isalpha():
-            alphabet.append(character)
+    for x in string:
+        if x.isalpha():
+            alphabet.append(x)
     print(alphabet)
-    print("Invalid option")
-
 
 new_list(mylist)
-
