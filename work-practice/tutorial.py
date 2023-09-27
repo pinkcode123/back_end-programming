@@ -5,10 +5,10 @@ arithmetic = (input("Enter an arithmetor +,-,x $ "))
 for x in range(1, stopvalue + 1, interval):
     if arithmetic == "+":
         ans = numbers + x
-        print(f"{numbers} x {x} = {ans}")
+        print(f"{numbers} + {x} = {ans}")
     elif arithmetic == "-":
         ans = numbers - x
-        print(f"{numbers} x {x} = {ans}")
+        print(f"{numbers} - {x} = {ans}")
     elif arithmetic == "x":
         ans = numbers * x
         print(f"{numbers} x {x} = {ans}")
